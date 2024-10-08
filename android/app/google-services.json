@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667100006438",
+    "project_id": "background-remover-de307",
+    "storage_bucket": "background-remover-de307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667100006438:android:25ae2ea228c3118859bee7",
+        "android_client_info": {
+          "package_name": "com.hk.smart_remove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxc6Gulo0XaboccIe4xAzHJ-YErXYDb3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
