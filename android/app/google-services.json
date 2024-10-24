@@ -1,21 +1,37 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "980675712346",
     "project_id": "bg-remover-871f9",
     "storage_bucket": "bg-remover-871f9.appspot.com"
+=======
+    "project_number": "667100006438",
+    "project_id": "background-remover-de307",
+    "storage_bucket": "background-remover-de307.appspot.com"
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:980675712346:android:398821cce9f00e4e008f63",
         "android_client_info": {
           "package_name": "com.uni.bgremove"
+=======
+        "mobilesdk_app_id": "1:667100006438:android:25ae2ea228c3118859bee7",
+        "android_client_info": {
+          "package_name": "com.hk.smart_remove"
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
         }
       },
       "oauth_client": [],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyC4ypTFBh5GdcVKh11yFfWo7kZph5jvAjM"
+=======
+          "current_key": "AIzaSyDxc6Gulo0XaboccIe4xAzHJ-YErXYDb3U"
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
         }
       ],
       "services": {

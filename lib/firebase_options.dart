@@ -50,6 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
+<<<<<<< HEAD
     apiKey: 'AIzaSyC4ypTFBh5GdcVKh11yFfWo7kZph5jvAjM',
     appId: '1:980675712346:android:398821cce9f00e4e008f63',
     messagingSenderId: '980675712346',
@@ -64,5 +65,21 @@ class DefaultFirebaseOptions {
     projectId: 'bg-remover-871f9',
     storageBucket: 'bg-remover-871f9.appspot.com',
     iosBundleId: 'com.uni.bgremove',
+=======
+    apiKey: 'AIzaSyDxc6Gulo0XaboccIe4xAzHJ-YErXYDb3U',
+    appId: '1:667100006438:android:25ae2ea228c3118859bee7',
+    messagingSenderId: '667100006438',
+    projectId: 'background-remover-de307',
+    storageBucket: 'background-remover-de307.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyD6Tws0_wmtqEEG3MIFiblswIg3zWlfjRY',
+    appId: '1:667100006438:ios:5589cf624b18c43b59bee7',
+    messagingSenderId: '667100006438',
+    projectId: 'background-remover-de307',
+    storageBucket: 'background-remover-de307.appspot.com',
+    iosBundleId: 'com.hk.smartRemove',
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
   );
 }

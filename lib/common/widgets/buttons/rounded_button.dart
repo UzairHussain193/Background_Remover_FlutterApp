@@ -32,7 +32,11 @@ class HkRoundedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+<<<<<<< HEAD
       onTap: isLoading ? (){} : onTap,
+=======
+      onTap: onTap,
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
       highlightColor: HkColors.black.withOpacity(0.2),
       overlayColor: WidgetStateProperty.all(HkColors.black.withOpacity(0.2)),
       borderRadius: BorderRadius.circular(HkSizes.buttonBorderRadius),

@@ -18,6 +18,7 @@ class HkLoginForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Consumer<LoginController>(
+<<<<<<< HEAD
         builder: (context, controller, child) => Form(
               key: controller.loginFormKey,
               child: Column(
@@ -59,3 +60,48 @@ class HkLoginForm extends StatelessWidget {
             ));
   }
 }
+=======
+      builder: (context, controller, child) => Form(
+        key: controller.loginFormKey,
+        child: Column(
+          children: [
+
+            /// Email Text Field
+            HkTextFormField(
+              prefixIcon: Iconsax.direct_right,
+              hintText: HkTexts.enterEmail,
+              controller: controller.email,
+              validator: (value) => HkValidator.validateEmail(value),
+            ),
+            const SizedBox(height: HkSizes.spaceBtwItems,),
+
+            /// Password TextField
+            HkTextFormField(
+              obscureText: controller.hidePassword,
+              prefixIcon: Iconsax.password_check,
+                hintText: HkTexts.enterPass,
+                controller: controller.password,
+              validator: (value) => HkValidator.validatePassword(value),
+              suffixIcon: IconButton(
+                icon: Icon(controller.hidePassword ? Iconsax.eye_slash : Iconsax.eye),
+                onPressed: controller.toggleHidePassword,
+              ),
+            ),
+            const SizedBox(height: HkSizes.spaceBtwItems / 2,),
+
+            /// Forgot Password Button
+            const HkForgotPasswordButton(),
+            const SizedBox(height: HkSizes.spaceBtwSections * 2,),
+            HkRoundedButton(
+                onTap: () {},
+              title: HkTexts.login
+            ),
+
+          ],
+        ),
+      )
+    );
+  }
+}
+
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137

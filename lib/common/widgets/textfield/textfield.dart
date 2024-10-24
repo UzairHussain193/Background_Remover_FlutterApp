@@ -11,7 +11,11 @@ class HkTextFormField extends StatelessWidget {
     this.suffixIcon,
     required this.controller,
     this.validator,
+<<<<<<< HEAD
     this.obscureText = false, this.onChanged
+=======
+    this.obscureText = false
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
   });
 
   final IconData? prefixIcon;
@@ -20,9 +24,12 @@ class HkTextFormField extends StatelessWidget {
   final TextEditingController controller;
   final String?Function(String?)? validator;
   final bool obscureText;
+<<<<<<< HEAD
   final Function(String)? onChanged;
 
 
+=======
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -31,7 +38,10 @@ class HkTextFormField extends StatelessWidget {
           borderRadius: BorderRadius.circular(HkSizes.textFieldRadius)
       ),
       child: TextFormField(
+<<<<<<< HEAD
         onChanged: onChanged,
+=======
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
         obscureText: obscureText,
         validator: validator,
         style: const TextStyle().copyWith(color: HkColors.darkerGrey),

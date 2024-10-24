@@ -35,6 +35,7 @@ class HkValidator {
     }
 
     // Check for uppercase letters
+<<<<<<< HEAD
     // if (!value.contains(RegExp(r'[A-Z]'))) {
     //   return 'Password must contain at least one uppercase letter.';
     // }
@@ -48,6 +49,21 @@ class HkValidator {
     // if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
     //   return 'Password must contain at least one special character.';
     // }
+=======
+    if (!value.contains(RegExp(r'[A-Z]'))) {
+      return 'Password must contain at least one uppercase letter.';
+    }
+
+    // Check for numbers
+    if (!value.contains(RegExp(r'[0-9]'))) {
+      return 'Password must contain at least one number.';
+    }
+
+    // Check for special characters
+    if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
+      return 'Password must contain at least one special character.';
+    }
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
 
     return null;
   }

@@ -49,12 +49,22 @@ class HomeRepository{
         final deviceInfo = await deviceInfoPlugin.deviceInfo;
         final sdk = deviceInfo.data['version']['sdkInt']; // API LEVEL 30 = Android 11
 
+<<<<<<< HEAD
         if(sdk >= 31){
           permission = await HkHelperFunctions.isPermissionGranted(Permission.manageExternalStorage);
+=======
+        if(sdk >= 30){
+          permission = await HkHelperFunctions.isPermissionGranted(Permission.manageExternalStorage);
+
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
         }else{
           permission = await HkHelperFunctions.isPermissionGranted(Permission.storage);
         }
       } else {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
         permission = await HkHelperFunctions.isPermissionGranted(Permission.camera);
       }
 

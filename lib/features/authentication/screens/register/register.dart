@@ -14,28 +14,52 @@ class RegisterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+<<<<<<< HEAD
       appBar: HkAppBar(showBackArrow: true),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: Padding(
           padding: EdgeInsets.all(HkSizes.defaultSpace),
+=======
+      appBar: HkAppBar(
+        showBackArrow: true,
+      ),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: Padding(
+            padding: EdgeInsets.all(HkSizes.defaultSpace),
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               /// Welcome back Text Headline
               HkAuthenticationHeadline(title: HkTexts.registerToGetStarted),
+<<<<<<< HEAD
               SizedBox(height: HkSizes.spaceBtwSections),
+=======
+              SizedBox(height: HkSizes.spaceBtwSections,),
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
 
               HkRegisterForm(),
               SizedBox(height: HkSizes.spaceBtwSections),
 
               /// Divider
               HkFormDivider(title: HkTexts.orRegisterWith),
+<<<<<<< HEAD
               SizedBox(
                 height: HkSizes.spaceBtwSections,
               ),
 
               HkSocialButtons()
+=======
+              SizedBox(height: HkSizes.spaceBtwSections,),
+
+
+              HkSocialButtons()
+
+
+
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
             ],
           ),
         ),
@@ -43,3 +67,8 @@ class RegisterScreen extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 152f9fa8741191defaaf16dd3adbaf2eb1412137
