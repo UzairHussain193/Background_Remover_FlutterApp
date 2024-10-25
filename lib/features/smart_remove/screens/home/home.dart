@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:smart_remove/data/repositories/authentication/authentication_repository.dart';
 import 'package:smart_remove/features/smart_remove/screens/home/widgets/drop_file_text.dart';
 import 'package:smart_remove/features/smart_remove/screens/home/widgets/image_slider.dart';
 import 'package:smart_remove/features/smart_remove/screens/home/widgets/remove_background_text.dart';
@@ -16,6 +17,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Hi",style: Theme.of(context).textTheme.headlineMedium!.copyWith(color: HkColors.primary,),),
+        actions: [
+          IconButton(icon: const Icon(Icons.logout, color: HkColors.primary,), onPressed: () => AuthenticationRepository().logout(context)),
+          const SizedBox(width: HkSizes.spaceBtwItems)
+        ]
       ),
       body: const SingleChildScrollView(
         physics: BouncingScrollPhysics(),

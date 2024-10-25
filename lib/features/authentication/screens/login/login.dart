@@ -38,9 +38,6 @@ class LoginScreen extends StatelessWidget {
               HkFormDivider(title: HkTexts.orLoginWith,),
               SizedBox(height: HkSizes.spaceBtwSections),
 
-              /// Google & Facebook Buttons
-              HkSocialButtons(),
-              SizedBox(height: HkSizes.spaceBtwSections,),
             ],
           ),
         ),

@@ -31,11 +31,7 @@ class RegisterScreen extends StatelessWidget {
 
               /// Divider
               HkFormDivider(title: HkTexts.orRegisterWith),
-              SizedBox(
-                height: HkSizes.spaceBtwSections,
-              ),
-
-              HkSocialButtons()
+              SizedBox(height: HkSizes.spaceBtwSections),
             ],
           ),
         ),
