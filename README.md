@@ -99,7 +99,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 - **Uzair Hussain** - [GitHub Profile](https://github.com/UzairHussain193)
-- **Muhammad Razi** - [GitHub Profile](https://github.com/UzairHussain193)
+- **Muhammad Razi** - [GitHub Profile](https://github.com/#)
+- **Muhammad Waryal** - [GitHub Profile](https://github.com/#)
 
 
 ### How to Customize
