@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980675712346",
+    "project_id": "bg-remover-871f9",
+    "storage_bucket": "bg-remover-871f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980675712346:android:398821cce9f00e4e008f63",
+        "android_client_info": {
+          "package_name": "com.uni.bgremove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4ypTFBh5GdcVKh11yFfWo7kZph5jvAjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
